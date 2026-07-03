@@ -1,6 +1,6 @@
 const n = 50;
 let result = '';
-for (let i = n; i >= 1; i--){
+for (let i = 1; i <= n; i++){
 result += i;
 }
 console.log(result);
