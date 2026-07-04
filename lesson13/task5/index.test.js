@@ -30,9 +30,6 @@ it("should return adults people", ()=> {
     expect(result).toEqual({"Ann": 48});
 });
 
-const clients = ['Ann', 'John', 'Denis', 'Andrey', 'Frank', 'Serg', 'Kate', 'Liza'];
-const balances = [1400, 18887, -6, 0, 200, 5000, 220, 100500];
-
 it("should return diff", ()=> {
     let result = withdraw("Ann", 900);
     expect(result).toEqual(500);
